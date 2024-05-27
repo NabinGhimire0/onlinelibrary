@@ -24,8 +24,8 @@ ob_start();
                 <p>Price: <?php echo $book['price']; ?> </p>
                 <p>Status: <?php echo $book['status']; ?></p>
                 <div class="buttons">
-                    <button class="buy">Buy Now</button>
-                    <button class="read">Read Now</button>
+                    <button class="buy" onclick="alertNotAvailable()">Buy Now</button>
+                    <button class="read" onclick="openPDF('<?php echo 'http://localhost/onlinelibrarysystem/uploads/' . $book['file']; ?>')">Read Now</button>
                 </div>
             </div>
         <?php endforeach; ?>
