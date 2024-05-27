@@ -11,7 +11,7 @@ $login_text = isset($_SESSION['user']['name']) ? $_SESSION['user']['name'] : "Lo
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Website</title>
+    <title>Online Library</title>
     <style>
         /* Basic CSS */
         body {
@@ -154,7 +154,7 @@ $login_text = isset($_SESSION['user']['name']) ? $_SESSION['user']['name'] : "Lo
 
         .card img {
             width: 100%;
-            height: auto;
+            height: 120px;
             border-radius: 5px;
         }
 
@@ -241,6 +241,16 @@ $login_text = isset($_SESSION['user']['name']) ? $_SESSION['user']['name'] : "Lo
             &copy; 2024 Your Website. All Rights Reserved.
         </div>
     </footer>
+
+    <script>
+        function alertNotAvailable() {
+            alert("Feature not available right now.");
+        }
+
+        function openPDF(pdfPath) {
+            window.open(pdfPath, '_blank');
+        }
+    </script>
 </body>
 
 </html>

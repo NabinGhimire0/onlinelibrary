@@ -1,6 +1,4 @@
 <?php
-$title = "Dashboard";
-
 ob_start();
 ?>
 <div class="container">
@@ -8,7 +6,7 @@ ob_start();
     <div class="row-heading">Contact Us</div>
     <div class="contact-container">
         <div class="image">
-            <img src="/path/to/contact-image.jpg" alt="Contact Image">
+            <img src="/onlinelibrarysystem/Assets/images/contact.png" alt="Contact Image">
         </div>
         <form action="#" method="post">
             <h2>Contact Form</h2>

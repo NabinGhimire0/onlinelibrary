@@ -1,6 +1,4 @@
 <?php
-$title = "Dashboard";
-
 ob_start();
 ?>
 

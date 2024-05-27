@@ -40,7 +40,7 @@ ob_start();
     <div class="row-heading">Login</div>
     <div class="contact-container">
         <div class="image">
-            <img src="/path/to/contact-image.jpg" alt="Contact Image">
+            <img src="/onlinelibrarysystem/Assets/images/login.png" alt="Contact Image">
         </div>
         <form action="#" method="post">
             <h2>Login Form</h2>
